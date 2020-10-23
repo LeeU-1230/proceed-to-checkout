@@ -8,7 +8,7 @@
 .information > span{
     font-weight: bolder;
     font-size: 35px;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
 }
 .information > img{
     vertical-align: middle;
@@ -56,6 +56,9 @@ ul,li{
     display: block;
     padding: 10px;
     text-align: center;
+}
+label{
+    padding: 10px 0;
 }
 
 

@@ -1,0 +1,100 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+.layout_center{
+    max-width: 800px;
+    margin: 30px auto;
+    font-family: fantasy,'Microsoft YaHei',Arial, Helvetica, sans-serif;
+    border: 2px brown solid;
+    padding: 5px;
+}
+.information, .prod, .market, .pay, .total{
+    width: 100%;
+}
+.information > span{
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+.information > img{
+    vertical-align: middle;
+}
+.logo_photo{
+    width: 150px;
+}
+.prod_box{
+    display: flex;
+    align-items: center;
+}
+.prod-item{
+    display: flex;
+    align-items: center;
+}
+.prod_name{
+    width: 360px;
+    padding: 10px;
+}
+.prod_price, .prod_qty, .prod_subtotal{
+    width: 120px;
+    padding: 10px;
+}
+.prod_cancel{
+    width: 80px;
+    padding: 10px;
+}
+
+.prod_box > span{
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+.total{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.total >div{
+    display: inline-block;
+    width: 380px;
+    text-align: right;
+    padding: 10px;
+}
+
+.market > span{
+    background-color: antiquewhite;
+    padding: 10px;
+    font-weight: bold;
+    width: 85px;
+}
+.market > form{
+    display: inline-block;
+    width: 650px;
+}
+
+.pay > span{
+    background-color: antiquewhite;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.payment{
+    display: flex;
+    padding: 10px;
+}
+.creditcard, .COD, .ATM, .IBO{
+    width: 200px;
+    text-align: center;
+}
+.a_creditcard, .a_COD, .a_ATM, .a_IBO{
+    padding: 5px;
+    border: 2px lightskyblue solid;
+    border-radius: 10%;
+    background-color: lime;
+    color: rgb(71, 46, 46);
+}
+a:hover{
+    background-color: lightskyblue;
+}

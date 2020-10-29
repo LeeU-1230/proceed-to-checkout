@@ -13,8 +13,6 @@ prod_qty01.addEventListener('change', function () {
     prod_subtotal01.textContent = `NT$ ${prod01}`;
     total_price.textContent = `NT$ ${prod01 + prod02 + 80}`;
     total = prod01 + prod02 + 80;
-    console.log(prod01);
-
 })
 
 prod_qty02.addEventListener('change', function () {
@@ -22,7 +20,6 @@ prod_qty02.addEventListener('change', function () {
     prod_subtotal02.textContent = `NT$ ${prod02}`;
     total_price.textContent = `NT$ ${prod01 + prod02 + 80}`;
     total = prod01 + prod02 + 80;
-    console.log(prod02);
 })
 
 /*function all_total(){
